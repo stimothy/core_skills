@@ -1,0 +1,9 @@
+
+Csquid:S1481"&Remove this unused "x" local variable.(ğúµ8ŸÂ´¤¿,
+Xsquid:S1854"5Remove this useless assignment to local variable "y".(ÖÜÄûüÿÿÿÿ8·Å¼¤¿,
+fsquid:S3518"CMake sure this expression can't be zero before doing this division.(è£Èøÿÿÿÿ8·Å¼¤¿,
+Xsquid:S1854"5Remove this useless assignment to local variable "x".(–İ…Èùÿÿÿÿ8·Å¼¤¿,
+Xsquid:S1854"5Remove this useless assignment to local variable "x".(è£Èøÿÿÿÿ8·Å¼¤¿,
+Isquid:S1481	"&Remove this unused "y" local variable.(õ°‹Üûÿÿÿÿ8·Å¼¤¿,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËºåÍûÿÿÿÿ8·Å¼¤¿,
