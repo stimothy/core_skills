@@ -63,7 +63,6 @@ public class Square extends Geometry {
     return width * height;
   }
 
-  @Override
   public double computePerimeter() {
     return computePerimeter(width, height);
   }

@@ -49,12 +49,11 @@ public class Circle extends Geometry {
     return PI * Math.pow(radius, 2);
   }
 
-  @Override
-  public double computePerimeter() {
-    return computePerimeter(radius);
+  public double computeCircumference() {
+    return computeCircumference(radius);
   }
 
-  public static double computePerimeter(double radius) {
+  public static double computeCircumference(double radius) {
     return 2 * PI * radius;
   }
 
