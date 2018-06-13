@@ -43,4 +43,8 @@ public abstract class Geometry implements GeometricFunctions{
   public void setPosition(Position position) {
     this.position = position;
   }
+
+  public String printMe() {
+    return "Geometry: " + name;
+  }
 }

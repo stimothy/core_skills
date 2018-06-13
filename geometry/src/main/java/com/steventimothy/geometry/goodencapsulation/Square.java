@@ -71,4 +71,9 @@ public class Square extends Geometry {
   public static double computePerimeter(double width, double height) {
     return (2 * width) + (2 * height);
   }
+
+  @Override
+  public String printMe() {
+    return "Square: \n" + super.printMe();
+  }
 }

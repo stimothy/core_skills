@@ -57,4 +57,9 @@ public class Circle extends Geometry {
   public static double computePerimeter(double radius) {
     return 2 * PI * radius;
   }
+
+  @Override
+  public String printMe() {
+    return "Circle: \n" + super.printMe();
+  }
 }
