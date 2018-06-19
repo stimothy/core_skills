@@ -6,7 +6,8 @@ import org.slf4j.LoggerFactory;
 
 public abstract class Geometry implements GeometricFunctions{
 
-  protected final Logger logger = LoggerFactory.getLogger(Geometry.class);
+  protected final Logger logger = LoggerFactory.getLogger("app.logger");
+  protected final Logger logger2 = LoggerFactory.getLogger(Geometry.class);
 
   private String name;
   private Position position;

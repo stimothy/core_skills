@@ -35,7 +35,7 @@ public class Circle extends Geometry {
       this.radius = radius;
     }
     else {
-      logger.warn("Trying to set negative radius, defaulting to 0.");
+      logger2.warn("Trying to set negative radius: " + radius + ", defaulting to 0.");
       this.radius = 0;
     }
   }

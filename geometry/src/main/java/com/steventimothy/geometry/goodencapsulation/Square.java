@@ -31,13 +31,15 @@ public class Square extends Geometry {
   }
 
   public void setWidth(double width) {
+    logger.debug("setting width: " + width);
     if (width >= 0) {
       this.width = width;
     }
     else {
-      logger.warn("Trying to set negative width, defaulting to 0.");
+      logger2.warn("Trying to set negative width, defaulting to 0.");
       this.width = 0;
     }
+    logger.debug("set width: " + width);
   }
 
   public double getHeight() {
@@ -45,13 +47,15 @@ public class Square extends Geometry {
   }
 
   public void setHeight(double height) {
+    logger.debug("setting height: " + height);
     if (height >= 0) {
       this.height = height;
     }
     else {
-      logger.warn("Trying to set negative height, defaulting to 0.");
+      logger2.warn("Trying to set negative height, defaulting to 0.");
       this.height = 0;
     }
+    logger.debug("set height: " + height);
   }
 
   @Override
